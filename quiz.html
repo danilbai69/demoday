@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We're Heating Up</title>
+    <script src="quiz.js" defer></script>
+    <link rel="stylesheet" href="quiz.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <nav>
+        <img src = "logo.png" width = "150px" height = "150px" id = "logo">
+        <div class = "buttons">Causes</div>
+        <div class = "buttons">Solutions</div>
+        <a href = "quiz.html" target = "_blank"><div class = "buttons">Quiz</div></a>
+    </nav>
+    <div id="actualpage">
+        <div id="textboxes">
+            <h1 id="quiztitle">Global Warming Quiz</h1>
+            <h2 id="quizdesc">Test your knowledge of global warming, it's causes, effects, and how to stop it!</h2>
+        </div>
+        <div id="questions">
+            <div id = question1>
+                <h1 class="questiontitle" id="question1title">Question 1. What is global warming?</h1>
+                <h2 id="question1answerchoiceA">A. Everyone around the globe warming up to eachother</h2>
+                <h2 id="question1answerchoiceB">B. Another term for summer</h2>
+                <h2 id="question1answerchoiceC">C. Rising temperatures on a global scale</h2>
+                <h2 id="question1answerchoiceD">D. Heat from computer fans heating up the atmosphere</h2>
+            </div>
+            <div id = question2>
+                <h1 class="questiontitle" id="question1title">Question 2. What is global warming caused by?</h1>
+                <h2 id="question2answerchoiceA">A. Intensified sunlight</h2>
+                <h2 id="question2answerchoiceB">B. Human activities that pollute the air</h2>
+                <h2 id="question2answerchoiceC">C. High body temperatures around the globe</h2>
+                <h2 id="question2answerchoiceD">D. Rising temperatures of earth's core</h2>
+            </div>
+            <div id = question3>
+                <h1 class="questiontitle" id="question1title">Question 3. Why is global warming bad?</h1>
+                <h2 id="question3answerchoiceA">A. We could make perfect conditions for Precursors to move in</h2>
+                <h2 id="question3answerchoiceB">B. Humans can't handle the heat</h2>
+                <h2 id="question3answerchoiceC">C. If it continues, earth could become uninhabitable</h2>
+                <h2 id="question3answerchoiceD">D. It isn't bad</h2>
+            </div>
+            <div id = question4>
+                <h1 class="questiontitle" id="question1title">Question 4. What do we do to stop it?</h1>
+                <h2 id="question4answerchoiceA">A. Remove all airplanes from the sky and cars from the road</h2>
+                <h2 id="question4answerchoiceB">B. Don't pollute</h2>
+                <h2 id="question4answerchoiceC">C. Be mindful of utility usage</h2>
+                <h2 id="question4answerchoiceD">D. None of the above</h2>
+            </div>
+            <div id="imdone">
+                <h1 id="imdonebutton">I'm done</h1>
+            </div>
+        </div>
+    </div>
+    <div id="finishedpage">
+        <div id="textboxes">
+            <h1 id="quiztitle">Global Warming Quiz Results</h1>
+        </div>
+        <div id="score">
+            <h2 id="xouttax">You got x/x correct</h2>
+            <h3 id="perfectscore">Cool!</h3>
+        </div>
+        <div id="answers">
+            <h2 id="question1rightwrongindicator">Correct...?</h2>
+            <div id = question1onfinishedpage>
+                <h1 class="questiontitle" id="question1title">Question 1. What is global warming?</h1>
+                <h2 id="question1answerchoiceAonfinishedpage">A. Everyone around the globe warming up to eachother</h2>
+                <h2 id="question1answerchoiceBonfinishedpage">B. Another term for summer</h2>
+                <h2 id="question1answerchoiceConfinishedpage">C. Rising temperatures on a global scale</h2>
+                <h2 id="question1answerchoiceDonfinishedpage">D. Heat from computer fans heating up the atmosphere</h2>
+            </div>
+            <h2 id="question2rightwrongindicator">Correct...?</h2>
+            <div id = question2onfinishedpage>
+                <h1 class="questiontitle" id="question1title">Question 2. What is global warming caused by?</h1>
+                <h2 id="question2answerchoiceAonfinishedpage">A. Intensified sunlight</h2>
+                <h2 id="question2answerchoiceBonfinishedpage">B. Human activities that pollute the air</h2>
+                <h2 id="question2answerchoiceConfinishedpage">C. High body temperatures around the globe</h2>
+                <h2 id="question2answerchoiceDonfinishedpage">D. Rising temperatures of earth's core</h2>
+            </div>
+            <h2 id="question3rightwrongindicator">Correct...?</h2>
+            <div id = question3onfinishedpage>
+                <h1 class="questiontitle" id="question1title">Question 3. Why is global warming bad?</h1>
+                <h2 id="question3answerchoiceAonfinishedpage">A. We could make perfect conditions for Precursors to move in</h2>
+                <h2 id="question3answerchoiceBonfinishedpage">B. Humans can't handle the heat</h2>
+                <h2 id="question3answerchoiceConfinishedpage">C. If it continues, earth could become uninhabitable</h2>
+                <h2 id="question3answerchoiceDonfinishedpage">D. It isn't bad</h2>
+            </div>
+            <h2 id="question4rightwrongindicator">Correct...?</h2>
+            <div id = question4onfinishedpage>
+                <h1 class="questiontitle" id="question1title">Question 4. What do we do to stop it?</h1>
+                <h2 id="question4answerchoiceAonfinishedpage">A. Remove all airplanes from the sky and cars from the road<h2>
+                <h2 id="question4answerchoiceBonfinishedpage">B. Don't pollute</h2>
+                <h2 id="question4answerchoiceConfinishedpage">C. Be mindful of utility usage</h2>
+                <h2 id="question4answerchoiceDonfinishedpage">D. None of the above</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

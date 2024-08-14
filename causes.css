@@ -1,0 +1,10 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#textboxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FF7F27;
+}

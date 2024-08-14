@@ -1,0 +1,232 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 150%;
+    color: white;
+
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.buttons{
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 5px
+}
+#logo{
+    transition: 5s;
+}
+
+
+#logo:hover{
+    transform: rotate(360deg)
+    
+}
+
+.buttons:hover{
+    text-decoration: underline;
+    font-size: 130%;
+
+
+}
+body {
+    font-family: 'Segoe UI';
+}
+
+#logo {
+    height:50px
+}
+
+#title {
+    width: 1000px;
+}
+
+#actualpage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#finishedpage {
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#textboxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FF7F27;
+}
+
+#questions {
+    justify-content: center;
+}
+
+.questiontitle {
+    color: #FF7F27;
+}
+
+#question1answerchoiceA {
+    transition: background-color 0.5s;
+}
+
+#question1answerchoiceB {
+    transition: background-color 0.5s;
+}
+
+#question1answerchoiceC {
+    transition: background-color 0.5s;
+}
+
+#question1answerchoiceD {
+    transition: background-color 0.5s;
+}
+
+#question2answerchoiceA {
+    transition: background-color 0.5s;
+}
+
+#question2answerchoiceB {
+    transition: background-color 0.5s;
+}
+
+#question2answerchoiceC {
+    transition: background-color 0.5s;
+}
+
+#question2answerchoiceD {
+    transition: background-color 0.5s;
+}
+
+#question3answerchoiceA {
+    transition: background-color 0.5s;
+}
+
+#question3answerchoiceB {
+    transition: background-color 0.5s;
+}
+
+#question3answerchoiceC {
+    transition: background-color 0.5s;
+}
+
+#question3answerchoiceD {
+    transition: background-color 0.5s;
+}
+
+#question4answerchoiceA {
+    transition: background-color 0.5s;
+}
+
+#question4answerchoiceB {
+    transition: background-color 0.5s;
+}
+
+#question4answerchoiceC {
+    transition: background-color 0.5s;
+}
+
+#question4answerchoiceD {
+    transition: background-color 0.5s;
+}
+
+#question1answerchoiceA:hover {
+    background-color: lightgrey;
+}
+
+#question1answerchoiceB:hover {
+    background-color: lightgrey;
+}
+
+#question1answerchoiceC:hover {
+    background-color: lightgrey;
+}
+
+#question1answerchoiceD:hover {
+    background-color: lightgrey;
+}
+
+#question2answerchoiceA:hover {
+    background-color: lightgrey;
+}
+
+#question2answerchoiceB:hover {
+    background-color: lightgrey;
+}
+
+#question2answerchoiceC:hover {
+    background-color: lightgrey;
+}
+
+#question2answerchoiceD:hover {
+    background-color: lightgrey;
+}
+
+#question3answerchoiceA:hover {
+    background-color: lightgrey;
+}
+
+#question3answerchoiceB:hover {
+    background-color: lightgrey;
+}
+
+#question3answerchoiceC:hover {
+    background-color: lightgrey;
+}
+
+#question3answerchoiceD:hover {
+    background-color: lightgrey;
+}
+
+#question4answerchoiceA:hover {
+    background-color: lightgrey;
+}
+
+#question4answerchoiceB:hover {
+    background-color: lightgrey;
+}
+
+#question4answerchoiceC:hover {
+    background-color: lightgrey;
+}
+
+#question4answerchoiceD:hover {
+    background-color: lightgrey;
+}
+
+#imdone {
+    display: flex;
+    justify-content: center;
+}
+
+#imdonebutton {
+    background-color: black;
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+
+@media(max-width: 1080px) {
+    body {
+        font-size: 100%;
+    }
+    #title {
+        width: 100%;
+    }
+}
+@media(max-width: 720px) {
+    body {
+        font-size: 50%;
+    }
+    #title {
+        width: 50%;
+    }
+}
