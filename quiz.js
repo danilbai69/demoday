@@ -216,7 +216,7 @@ imDoneButton.addEventListener("click", function() {
             question2RightWrongIndicator.style.backgroundColor = "maroon";
             question2RightWrongIndicator.style.color = "white";
             question2RightWrongIndicator.innerText = "Wrong";
-            question2BOnFinishedPage.innerText = "C. Rising temperatures on a global scale <-- This was the answer";
+            question2BOnFinishedPage.innerText = "B. Rising temperatures on a global scale <-- This was the answer";
             if (question2selectedAnswer == "answerchoiceA") {
                 question2AOnFinishedPage.style.backgroundColor = "maroon";
                 question2AOnFinishedPage.style.color = "white";
